@@ -5,7 +5,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Footer from './pages/Footer'
 import Contact from './pages/Contact'
-import SignUp from './components/SignUp'
+import SignUp from './components/SingUp'
 import Login from './components/Login'
 import ForgotPassword from './components/ForgotPassword'
 import UserDashboard from './components/Dashboard'
@@ -22,9 +22,9 @@ const App = () => {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/login" element={<Login />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
-        <Route path="/user" element={<UserDashboard />} />
+         <Route path="/" element={<UserDashboard/>} />
       </Routes>
-      <Footer />
+      <Footer/>
     </div>
   )
 }

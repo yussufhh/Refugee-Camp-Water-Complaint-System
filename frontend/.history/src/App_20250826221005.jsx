@@ -9,7 +9,8 @@ import SignUp from './components/SignUp'
 import Login from './components/Login'
 import ForgotPassword from './components/ForgotPassword'
 import UserDashboard from './components/Dashboard'
-
+import AdminLayout from './components/admin/AdminLayout'
+import AdminSidebar from './components/admin/AdminSidebar'
 
 const App = () => {
   return (
@@ -23,6 +24,8 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
         <Route path="/user" element={<UserDashboard />} />
+        <Route path="/admin" element={<AdminLayout />} />
+        <Route path="/admin/sidebar" element={<AdminSidebar />} />
       </Routes>
       <Footer />
     </div>

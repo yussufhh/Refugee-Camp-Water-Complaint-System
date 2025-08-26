@@ -9,6 +9,7 @@ import SignUp from './components/SignUp'
 import Login from './components/Login'
 import ForgotPassword from './components/ForgotPassword'
 import UserDashboard from './components/Dashboard'
+import AdminLayout from './components/admin/AdminLayout'
 
 
 const App = () => {
@@ -22,7 +23,7 @@ const App = () => {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/login" element={<Login />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
-        <Route path="/user" element={<UserDashboard />} />
+        <Route path="/user" element={<UserDashboard />} /
       </Routes>
       <Footer />
     </div>

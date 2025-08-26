@@ -9,6 +9,7 @@ import SignUp from './components/SignUp'
 import Login from './components/Login'
 import ForgotPassword from './components/ForgotPassword'
 import UserDashboard from './components/Dashboard'
+import AdminLayout from './components/admin/AdminLayout'
 
 
 const App = () => {
